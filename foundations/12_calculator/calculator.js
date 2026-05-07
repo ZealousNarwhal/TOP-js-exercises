@@ -12,7 +12,6 @@ const sum = function(array) {
 };
 
 const multiply = function(array) {
-  const initialValue = 0;
   return array.filter((element) => typeof(element) === "number")
   .reduce((accumulator, currentValue) => accumulator * currentValue, 1);
 };
